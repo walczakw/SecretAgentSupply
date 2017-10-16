@@ -17,7 +17,7 @@ header, main, footer {
 
 .container{
   width: 960px;
-  border: 2px solid orange;
+  border: 4px solid red;
   }
 
 /* Header */
@@ -114,47 +114,44 @@ nav ul li {
 
 /* Main - Product Grid */
 .productGrid {
-  border: 2px solid orange;
-  width: 960px;
+
   margin: 3rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+.product {
+  width: 30%;
+}
+
 .productImage {
   border: 4px solid black;
-  width: 30%;
-  overflow: hidden;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
 }
 
 .productImage img {
-  background-color: pink;
-  border: 1px solid green;
-  height: 9rem;
-  width: auto;
-  max-width: 100%;
-  margin: 2rem 0;
-  padding: 3rem;;
+  border: 2px solid green;
+  max-width: 8rem;
 }
 
-.productImage h5 {
+.product h5 {
   padding: 0.5rem 0;
   text-align: center;
 }
 
-.productImage h5:nth-child(2) {
+.product h5 {
   color: white;
   background-color: black;
 }
 
 /* Main - Bottom Section */
 .bottomSection {
-  border: 1.5px solid yellow;
-  width: 960px;
+
 }
 
 .location, .hours {
@@ -199,8 +196,7 @@ footer {
 }
 
 footer .copyright {
-  border: 1.5px solid yellow;
-  width: 960px;
+  
   margin: auto;
 }
 
