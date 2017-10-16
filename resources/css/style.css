@@ -18,7 +18,7 @@ header, main, footer {
 .container{
   width: 960px;
   border: 4px solid red;
-  }
+}
 
 /* Header */
 .logo {
@@ -114,7 +114,6 @@ nav ul li {
 
 /* Main - Product Grid */
 .productGrid {
-
   margin: 3rem 0;
   display: flex;
   flex-direction: row;
@@ -132,11 +131,13 @@ nav ul li {
   align-items: center;
   height: 9rem;
   padding: 2rem 0;
+  overflow: hidden;
 }
 
 .productImage img {
   border: 2px solid green;
-  max-width: 8rem;
+  max-width: 9rem;
+  display: block;
 }
 
 .product h5 {
@@ -196,10 +197,38 @@ footer {
 }
 
 footer .copyright {
-  
   margin: auto;
 }
 
 .copyright h4 {
   color: white;
+}
+
+
+/* Media queries */
+@media only screen and (min-width: 1024px) {
+   nav .mobileMenu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .mobileMenu {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+
+  .product:nth-child(3) {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
+
 }
