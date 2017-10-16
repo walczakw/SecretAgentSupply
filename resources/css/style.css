@@ -1,0 +1,209 @@
+/*General styles */
+html {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: white;
+  font-family: Helvetica;
+}
+
+header, main, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  width: 960px;
+  border: 2px solid orange;
+  }
+
+/* Header */
+.logo {
+  background-color: black;
+  border: 2px solid yellow;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo .container {
+  padding: 0.66rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  border: 1.5px solid green;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+img {
+  margin: auto;
+}
+
+.logo h2 {
+  border: 1.5px solid blue;
+  font-size: 1rem;
+  margin: auto 0;
+  display: inline-block;
+}
+
+/* Main Banner */
+.mainBanner {
+  border: 2px solid yellow;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainBannerBox {
+  border: 2px solid green;
+  background-color: black;
+  margin-top: 9rem;
+  width: 25rem;
+  padding-bottom: 2rem;
+}
+
+.mainBannerBox h3, h1 {
+  border: 1.5px solid blue;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+.mainBannerBox h3 {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.mainBannerBox h1 {
+  font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+  background-color: firebrick;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 0;
+}
+
+nav ul {
+  border: 1.5px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+
+/* Main - Product Grid */
+.productGrid {
+  border: 2px solid orange;
+  width: 960px;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.productImage {
+  border: 4px solid black;
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productImage img {
+  background-color: pink;
+  border: 1px solid green;
+  height: 9rem;
+  width: auto;
+  max-width: 100%;
+  margin: 2rem 0;
+  padding: 3rem;;
+}
+
+.productImage h5 {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.productImage h5:nth-child(2) {
+  color: white;
+  background-color: black;
+}
+
+/* Main - Bottom Section */
+.bottomSection {
+  border: 1.5px solid yellow;
+  width: 960px;
+}
+
+.location, .hours {
+  border: 2px solid yellow;
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.location {
+  float: left;
+}
+
+.hours {
+  float: right;
+}
+
+.location h5:nth-child(1) {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.hours h5:nth-child(1) {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.clearfix {
+  border: 1px solid green;
+  clear: both;
+}
+
+
+/* Footer */
+footer {
+  height: 5rem;
+  background-color: black;
+}
+
+footer .copyright {
+  border: 1.5px solid yellow;
+  width: 960px;
+  margin: auto;
+}
+
+.copyright h4 {
+  color: white;
+}
