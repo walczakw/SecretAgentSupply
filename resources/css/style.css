@@ -214,7 +214,17 @@ footer .copyright {
 
   .product {
     width: 47%;
+    margin: 0 0.5rem;
   }
+
+  .bottomSection .container {
+    margin: 0 0.5rem;
+  }
+
+  footer .container {
+    margin-left: 0.5rem;
+}
+
 }
 
 @media only screen and (max-width: 470px) {
