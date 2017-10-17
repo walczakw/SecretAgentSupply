@@ -18,7 +18,6 @@ h1, h2, h3 {
 /* Header */
 .logo {
   background-color: black;
-  border: 2px solid yellow;
   width: 100%;
 }
 
@@ -29,7 +28,6 @@ h1, h2, h3 {
 }
 
 .logo img {
-  border: 1.5px solid green;
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
@@ -40,7 +38,6 @@ img {
 }
 
 .logo h2 {
-  border: 1.5px solid blue;
   font-size: 1rem;
   margin: auto 0;
   display: inline-block;
@@ -48,7 +45,6 @@ img {
 
 /* Main Banner */
 .mainBanner {
-  border: 2px solid yellow;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   height: 25rem;
   background-repeat: no-repeat;
@@ -66,7 +62,6 @@ img {
 }
 
 .mainBannerBox h3, h1 {
-  border: 1.5px solid blue;
   font-weight: bold;
   margin-left: 3rem;
   margin-right: 1rem;
@@ -92,7 +87,6 @@ nav {
 }
 
 nav ul {
-  border: 1.5px solid blue;
   display: flex;
   justify-content: space-between;
 }
@@ -127,7 +121,6 @@ nav ul li {
 }
 
 .productImage img {
-  border: 2px solid green;
   max-width: 9rem;
   display: block;
 }
@@ -143,7 +136,6 @@ nav ul li {
 
 /* Main - Bottom Section */
 .location, .hours {
-  border: 2px solid yellow;
   width: 35%;
   margin-bottom: 4rem;
 }
@@ -284,6 +276,9 @@ footer .copyright {
     width: 90%;
   }
 
+  .location {
+    margin-bottom: 0.5rem;
+  }
 
   /* Footer */
   footer {
