@@ -69,6 +69,7 @@ img {
   border: 1.5px solid blue;
   font-weight: bold;
   margin-left: 3rem;
+  margin-right: 1rem;
 }
 
 .mainBannerBox h3 {
@@ -226,12 +227,69 @@ footer .copyright {
 
 @media only screen and (max-width: 470px) {
 
-  .product:nth-child(2) {
+  /* Banner */
+  .mainBanner {
+    height: 15rem;
+  }
+
+  .mainBannerBox {
+    margin-top: 10rem;
+    width: 100%;
+
+  }
+
+  .mainBannerBox h3, h1 {
+    margin-left: 2rem;
+  }
+
+  .mainBannerBox h1 {
+   font-size: 1rem;
+ }
+
+  .mainBannerBox h3 {
+   font-size: 0.77rem;
+   margin-top: 1rem;
+ }
+
+
+  /* Nav */
+  nav {
+   margin-top: 0.85rem;
+
+  }
+
+  /* Main - Product Grid */
+   .product:nth-child(2) {
     display: none;
+  }
+
+  .productGrid .container {
+    display: flex;
+    justify-content: center;
   }
 
   .product {
     width: 90%;
+
+
+
+  .location {
+
   }
+
+  .hours {
+    margin-top: 0.5rem;
+  }
+
+
+  /* Footer */
+  footer {
+    height: auto;
+  }
+
+  footer .container {
+   text-align: center;
+}
+
 
 }
