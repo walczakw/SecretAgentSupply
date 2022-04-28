@@ -1,1 +1,1 @@
-https://walczakw.github.io/SecretAgentSupply/
+https://walczakw.github.io/secret-agent-supply/
